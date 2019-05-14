@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head><title>plz login</title>
+<script src ="https://firebase.google.com/docs/web/setup#config-web-app"></script>
+<link rel='stylesheet' src='login.css'>
+<script src='login.js'></script>
+</head>
+<body>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB-PgnWPZ89OrDHmhsV1xFrVPL1nUZB98Y",
+    authDomain: "student-management-syste-5f56a.firebaseapp.com",
+    databaseURL: "https://student-management-syste-5f56a.firebaseio.com",
+    projectId: "student-management-syste-5f56a",
+    storageBucket: "student-management-syste-5f56a.appspot.com",
+    messagingSenderId: "1030556494530",
+    appId: "1:1030556494530:web:f704931792a03351"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<div class='login-box'><!--login box starts-->
+    <h1>Login</h1>
+    <div class='textbox'>
+        <input type='email' name='' placeholder='email'>
+    </div>
+    <div class='textbox'>
+        <input type ='password' placeholder='password'>
+    </div>
+    <input class='btn' type='button' value='login'>
+</div>
+
+<!--    
+<form class='login-for-accounts'>
+<input type='email' placeholder='email'>
+<input type='password' placeholder='password'>
+<button onclick='login()' value='log in'>
+
+</form>
+-->
+</body>
+</html>

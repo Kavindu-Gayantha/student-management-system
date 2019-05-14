@@ -1,0 +1,39 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body
+{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background:url('assassins-creed-logo-wallpaper-5.jpg') no-repeat;
+    background-size:cover;
+}
+.login-box
+{
+    width:280px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: relative(-50%,-50%);
+    color: white;
+     
+}
+.login-box h1
+{
+    border-bottom:6px solid;
+    font-size:480px;
+    float:left;
+    margin-bottom:50px;
+    padding:13px 0;
+     
+
+}
+.textbox
+{
+    widows: 100%;
+    overflow:hidden;
+    font-size:20px;
+    padding:8px o;
+    margin:8px 0;
+    border-bottom:1px solid  #4caf50; 
+
+}
