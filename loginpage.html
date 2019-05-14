@@ -6,6 +6,7 @@
 <script src='login.js'></script>
 </head>
 <body>
+<body>
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
@@ -20,24 +21,20 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
-<div class='login-box'><!--login box starts-->
-    <h1>Login</h1>
-    <div class='textbox'>
-        <input type='email' name='' placeholder='email'>
-    </div>
-    <div class='textbox'>
-        <input type ='password' placeholder='password'>
-    </div>
-    <input class='btn' type='button' value='login'>
+<div class="heading">
+<h2>Log in to SE database</h2>
+
 </div>
+<section>
 
-<!--    
-<form class='login-for-accounts'>
-<input type='email' placeholder='email'>
-<input type='password' placeholder='password'>
-<button onclick='login()' value='log in'>
+<div class="login">
+    <input type="text" placeholder="Username" id="username">  
+    <input type="password" placeholder="password" id="password">  
+  <a href="#" class="forgot">forgot password?</a>
+  <input type="submit" value="Sign In">
+</div>
+<div class="shadow"></div>
 
-</form>
--->
+</section>
 </body>
 </html>
