@@ -1,13 +1,14 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-html { height: 100% }
+/* html { height: 100% }
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
-body 
+::selection { background: #fe57a1; color: #fff; text-shadow: none; } */
+body
 {
 
 
-height:100%;
- background-image: radial-gradient(rgba(92,100,111,1) 0%,rgba(31,35,40,1) 100%), url('http://i.minus.com/io97fW9I0NqJq.png') ;
+  height:100%;
+ /* background-image: radial-gradient(rgba(92,100,111,1) 0%,rgba(31,35,40,1) 100%), url('http://i.minus.com/io97fW9I0NqJq.png') ; */
+
  }
 .login {
   background: #eceeee;
@@ -15,11 +16,12 @@ height:100%;
   border-radius: 6px;
   height: 257px;
   margin: 20px auto 0;
-  width: 310px;
+  width: 110px;
   padding:5px;
-  position:relative;
+  position:fixed;
   float:center;
-  
+  display: block;
+  background: black;
 }
 .login h1 {
   background-image: linear-gradient(top, #f1f3f3, #d4dae0);
@@ -35,7 +37,7 @@ height:100%;
   text-align: center;
   text-shadow: 0 -1px 0 rgba(0,0,0,0.2), 0 1px 0 #fff;
 }
-input[type="password"], input[type="text"] {
+/* input[type="password"], input[type="text"] {
   background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
   border: 1px solid #a1a3a3;
   border-radius: 4px;
@@ -58,8 +60,8 @@ input[type="password"]:focus, input[type="text"]:focus {
   height: 16px;
   margin: 26px 0 0 28px;
   width: 87px;
-}
-input[type="checkbox"] {
+} */
+/* input[type="checkbox"] {
   cursor: pointer;
   height: 20px;
   opacity: 0;
@@ -107,7 +109,7 @@ input[type="submit"] {
   margin: 29px 0 0 29px;
   position:relative;
   cursor:pointer;
-  border: none;  
+  border: none;
   background-color: #37a69b;
   background-image: linear-gradient(top,#3db0a6,#3111);
   border-top-left-radius: 5px;
@@ -115,7 +117,7 @@ input[type="submit"] {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius:5px;
   box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
-}
+} */
 
 .shadow {
   background: #000;
@@ -128,24 +130,24 @@ input[type="submit"] {
 }
 section
 {
-height:405px;
-padding:200px;
+  height:405px;
+  padding:200px;
 }
 .heading
 {
-height:100px;
-color:white;
-background:black;
-margin-top:0;
+  height:100px;
+  color:white;
+  background:black;
+  margin-top:0;
 }
 .heading h2
 {
-text-align:center;
-padding:25px;
+  text-align:center;
+  padding:25px;
 }
 
 
-input[type="submit"]:active {
+/* input[type="submit"]:active {
   top:3px;
   box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
-}
+} */
