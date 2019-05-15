@@ -2,11 +2,82 @@
 <html>
 <head><title>plz login</title>
 <script src ="https://firebase.google.com/docs/web/setup#config-web-app"></script>
-<link rel='stylesheet' src="login.css">
+<!-- <link rel='stylesheet' src="loginpages.css"> -->
 <script src='login.js'></script>
+<style>
+.heading-statement
+{
+  font-size: 60px;
+  text-align: center;
+  /* background:yellow; */
+  color: gold;
+  font-weight: bold;
+  /* padding-top: 0; */
+  vertical-align: super;
+
+
+}
+body
+{
+  /* background-color:#2F4F4F; */
+  background: url(4K-Green-Grass-Wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   */
+
+
+}
+img{
+  opacity: 80%;
+}
+.login
+{
+
+  /* background: linear-gradient(to bottom,MidnightBlue,black,OrangeRed,Black,MidnightBlue); */
+  position: fixed;
+  /* float: initial; */
+  height: 200px;
+  padding:10px;
+  width: 400px;
+  background-color: transparent;
+
+}
+
+#section
+{
+  padding-left: 40%;
+  padding-right: 50%;
+  padding-top:0;
+
+}
+#header
+{
+  background:linear-gradient(to bottom,black,darkblue,blue,black);
+  width:100%;
+  height: auto;
+  margin-top: 0;
+  padding-top: 10px;
+}
+#text_email,#text_password,#sumbit_button
+{
+   font-size: 25px;
+   text-align:left;
+   line-height:25px;
+   margin-bottom: 25px;
+   border:1px solid black;
+   padding:10px;
+}
+#sumbit_button:hover
+{
+  color:white;
+  background:#2F4F4F;
+  cursor:cell;
+}
+
+</style>
 </head>
 <body>
-<body>
+
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
@@ -21,20 +92,20 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
-<div class="heading">
-<h2>Log in to SE database</h2>
-
+<div id="header">
+<p class="heading-statement">login to the system</p>
 </div>
-<section>
+ <div id="section">
+ <div class="login">
+   <form id="log">
+     <div class="email">
+     <input type="text" placeholder="email" id="text_email"/></div>
+     <div class="pass">
+   <input type="password" placeholder="password" id="text_password"/></div>
+   <input type="submit" value="login" id="sumbit_button"/>
+     </form>
+ </div>
+   </div>
 
-<div class="login">
-    <input type="text" placeholder="Username" id="username">
-    <input type="password" placeholder="password" id="password">
-  <a href="#" class="forgot">forgot password?</a>
-  <input type="submit" value="Sign In">
-</div>
-<!-- <div class="shadow"></div> -->
-
-</section>
 </body>
 </html>

@@ -1,0 +1,34 @@
+.heading-statement
+{
+  font-size: 60px;
+  text-align: center;
+  background:yellow;
+  color: blue;
+  font-weight: bold;
+
+}
+body
+{
+  background: black;
+  color: white;
+
+
+}
+.login
+{
+
+  background: linear-gradient(to bottom,brown, orange, yellow, green, blue);
+  position: fixed;
+  /* float: initial; */
+  height: 100;
+  padding: 10px;
+  width: 250;
+}
+
+#section
+{
+  padding-left: 50%;
+  padding-right: 50%;
+
+
+}
